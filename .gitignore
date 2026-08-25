@@ -1,0 +1,19 @@
+# Environnement Python
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Base Chroma locale
+chroma_db/
+
+# IDE
+.vscode/
+.idea/
+
+# Système
+.DS_Store
+Thumbs.db
