@@ -1,0 +1,10 @@
+# Livrables lourds conservés dans Git LFS. Les sources RAG de documents/
+# restent dans Git standard afin que l'index puisse toujours être reconstruit.
+Rapport_PFA_*.docx filter=lfs diff=lfs merge=lfs -text
+Rapport_PFA_*.pdf filter=lfs diff=lfs merge=lfs -text
+report_assets.zip filter=lfs diff=lfs merge=lfs -text
+rapport_qa_pages/** filter=lfs diff=lfs merge=lfs -text
+rapport_qa_sheets/** filter=lfs diff=lfs merge=lfs -text
+ppt_assets/** filter=lfs diff=lfs merge=lfs -text
+chapitre_ia_work/**/*.png filter=lfs diff=lfs merge=lfs -text
+chapitre_ia_work/**/*.pdf filter=lfs diff=lfs merge=lfs -text

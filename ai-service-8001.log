@@ -1,0 +1,2 @@
+INFO:     127.0.0.1:63039 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63044 - "POST /query-rag HTTP/1.1" 200 OK
