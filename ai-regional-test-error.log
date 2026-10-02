@@ -1,6 +1,0 @@
-INFO:     Started server process [14928]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-INFO:     Uvicorn running on http://127.0.0.1:8002 (Press CTRL+C to quit)
-C:\Users\hp\Documents\AI-energy-platform\app.py:61: LangChainDeprecationWarning: The class `Chroma` was deprecated in LangChain 0.2.9 and will be removed in 1.0. An updated version of the class exists in the `langchain-chroma package and should be used instead. To use it run `pip install -U `langchain-chroma` and import as `from `langchain_chroma import Chroma``.
-  return Chroma(persist_directory=CHROMA_DIR, embedding_function=embeddings)
